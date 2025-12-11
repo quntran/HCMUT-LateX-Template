@@ -1,0 +1,82 @@
+# -----------------------------
+# LaTeX build files
+# -----------------------------
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# Index files
+*.idx
+*.ilg
+*.ind
+
+# Glossary & nomenclature
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.nlo
+*.nls
+
+# Diagrams & TikZ externalization
+*.dpth
+*.md5
+*.auxlock
+
+# LatexMK temp files
+*.pdfsync
+
+# Beamer
+*.nav
+*.snm
+*.vrb
+
+# Output files
+*.pdf
+*.ps
+*.dvi
+
+# minted (code highlighting)
+_minted*/
+*.pyg
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+*.code-workspace
+
+# -----------------------------
+# OS-related files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# External tools
+# -----------------------------
+latex.out/
+build/
+tmp/
