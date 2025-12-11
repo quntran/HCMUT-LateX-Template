@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{Templates/main-layout}
+\ProvidesClass{Layout/main-layout}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
@@ -157,6 +157,7 @@
 
     \vspace*{-3\baselineskip}
     \begin{center}
+        \bfseries
         \MakeUppercase{\@upperuniname}
 
         \MakeUppercase{\@uniname}
@@ -165,7 +166,6 @@
         \vfill
         \includegraphics[scale=0.4]{graphics/hcmut.png}
         \vfill
-        \bfseries
         \begin{tabular}{c}
             \Large\@coursename                               \\
             {}                                               \\
@@ -178,13 +178,14 @@
             \bottomrule
         \end{tabular}
         \vfill
-        \mdseries
+        % \mdseries
         \begin{tabular}{rll}
             Advisor(s): \@advisor \\
             Student(s): \@stuname \\
         \end{tabular}
         \vfill
         \MakeUppercase{\@reportplace, \@reporttime}
+        \mdseries
     \end{center}
 
     \cleardoublepage

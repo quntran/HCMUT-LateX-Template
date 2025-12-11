@@ -1,19 +1,17 @@
-\documentclass[oneside,final]{Templates/main-layout}
+\documentclass[oneside,final]{Layout/main-layout}
 
 \input{Headers/lib.tex}
-\input{Templates/cover.tex}
+\input{Layout/cover.tex}
 
 \begin{document}
+    \coverpage
 
-\coverpage
-\tableofcontents
-\clearpage
+    \include{Layout/contribution}
 
-% ----- Chapters -----
-\section{Introduction}
-Some text h
+    \include{Layout/table-of-content}
 
-\section{System Design}
-More text here.
+    % ===== Input Sections =====
+    \input{Sections/main.tex}
 
+    \include{Layout/reference}
 \end{document}
